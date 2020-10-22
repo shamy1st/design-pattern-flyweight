@@ -15,7 +15,7 @@ You have a **Point** of interest on a map application, and it consumes a lot of 
     public class PointService {
         public List<Point> getPoints() {
             List<Point> points = new ArrayList<>();
-            Point p1 = new Point(1, 2, iconFactory.getPointIcon(PointType.CAFE));
+            Point p1 = new Point(1, 2, PointType.CAFE, null);
             points.add(p1);
             return points;
         }
