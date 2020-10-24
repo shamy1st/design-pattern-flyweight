@@ -1,7 +1,7 @@
 # Flyweight Design Pattern (Java)
 
 **Flyweight** object share data as possible with similar objects to minimize memory usage.
-![](https://github.com/shamy1st/design-pattern-flyweight-java/blob/main/flyweight-uml.png)
+![](https://github.com/shamy1st/design-pattern-flyweight/blob/main/uml.png)
 ### Problem: 
 You have a **Point** of interest on a map application, and it consumes a lot of memory because of the icon large size 20KB per Point.
 
@@ -45,4 +45,4 @@ You have a **Point** of interest on a map application, and it consumes a lot of 
         }
     }
 ### Solution:
-![](https://github.com/shamy1st/design-pattern-flyweight-java/blob/main/flyweight-solution-uml.png)
+![](https://github.com/shamy1st/design-pattern-flyweight/blob/main/uml-solution.png)
